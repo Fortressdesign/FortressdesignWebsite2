@@ -20,7 +20,7 @@ body {
   }
   #menuList{
     display: flex;
-
+  }
   .menu {
     display: flex;
     flex-direction: column; /* Add this line */
