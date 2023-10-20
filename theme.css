@@ -6,6 +6,7 @@
 body {
   background-size: cover;
   background-attachment: fixed;
+  font-family: 'Lato', sans-serif;
 }
   nav {
     background-color: #333;
