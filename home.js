@@ -11,6 +11,25 @@
                 // Handle any errors that occur during the fetch
                 console.error('Error fetching JSON:', error);
             });
+ // Function to fetch and display the "title" from data.json
+        function fetchAndDisplayTitle() {
+            fetch('https://raw.githubusercontent.com/Fortressdesign/FortressdesignWebsite2/main/data.json')
+                .then(response => response.json())
+                .then(data => {
+                    // Get the "title" property from the JSON data
+                    const title = data.title;
+                    // Display the title in the #logo element
+                    document.getElementById('logo').textContent = title;
+                })
+                .catch(error => {
+                    console.error('Error fetching data.json:', error);
+                });
+        }
+
+        // Add an event listener to execute after the page has loaded
+        window.addEventListener('load', function() {
+            fetchAndDisplayTitle();
+        });
 
 ////////
 //logo//
