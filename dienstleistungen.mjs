@@ -68,7 +68,7 @@
                 .then(response => response.json())
                 .then(data => {
                     // Get the "startseite" content from the JSON data
-                    const startseite = data.seiten.find(page => page.titel === "Willkommen auf unserer Website");
+                    const startseite = data.seiten.find(page => page.titel === "Leistungen");
                     if (startseite) {
                         document.getElementById('page').innerHTML = startseite.inhalt;
                     }
