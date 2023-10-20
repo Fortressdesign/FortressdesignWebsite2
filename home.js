@@ -34,6 +34,7 @@
 ////////
 //logo//
 ////////
+function
 const jsonData = {
   title: "Fortressdesign",
   beschreibung:
@@ -75,7 +76,9 @@ function get_logo() {
         // Call the function to fetch and display the JSON data
         fetchDataJson();
 }
-get_logo();
+ window.addEventListener('load', function() {
+            get_logo();
+        });
 ////////
 //menu//
 ////////
