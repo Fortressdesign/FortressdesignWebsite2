@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -14,7 +14,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+    font-family: 'Lato', sans-serif;
   }
 .content{
   width:100%;
