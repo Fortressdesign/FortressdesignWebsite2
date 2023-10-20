@@ -9,6 +9,10 @@
 
   
 }
+.show-menu{
+  
+  visibility: hidden;
+}
 #page{
   display:block;  
   background: rgba(164, 186, 218, 0.11);
