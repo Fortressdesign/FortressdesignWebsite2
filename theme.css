@@ -5,7 +5,8 @@
   box-sizing: border-box;
 }
 .top{
-  width: 100%;
+  width: 100vw;
+  
 }
 #page{
   display:block;  
