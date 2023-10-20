@@ -41,7 +41,7 @@
         // Function to set a fixed background image
         function setFixedBackgroundImage() {
             document.body.style.backgroundImage = `url('${imageUrl}')`;
-            document.body.style.backgroundSize = 'cover 100%';
+            document.body.style.backgroundSize = 'cover 100';
             document.body.style.backgroundAttachment = 'fixed';
             document.body.style.backgroundRepeat = 'no-repeat';
         }
