@@ -24,6 +24,7 @@ body {
     line-height:50px;
     font-weight: 900;
     padding: 0 20px;
+    font-family: 'Lato', sans-serif;
   }
 
   #menuList {
@@ -33,9 +34,15 @@ body {
     flex-direction: column; /* Add this line */
     display: none; /* Add this line */
   }
+#menuList li{
+  line-height:50px;
+}
+#phone{
+  line-height:50px;
+}
 
   ul {
-    list-style: none;
+   
     padding: 0;
     margin: 0;
     display: flex;
