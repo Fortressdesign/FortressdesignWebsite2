@@ -92,6 +92,9 @@ background-repeat: no-repeat;
     text-decoration: none;
     color: #333;
   }
+#menu li{
+  display:inline;
+}
 
   .menu-toggle {
     font-size: 24px;
@@ -109,6 +112,9 @@ background-repeat: no-repeat;
     #menu {
       visiblity:hidden;
   }
+    #menu li{
+      display:block;
+    }
 
   /* Add this style to display the menu when the 'active' class is present */
   .menu.active {
