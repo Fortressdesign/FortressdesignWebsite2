@@ -47,7 +47,7 @@ background-repeat: no-repeat;
     width:40vw;
     text-align: right;
     flex-direction: column; /* Add this line */
-    display: none; /* Add this line */
+   
   }
 #menuList li{
   line-height:50px;
