@@ -47,7 +47,7 @@ function get_logo() {
                 })
                 .then(data => {
                     // Display the JSON data in the #jsonData element
-                    document.getElementById('jsonData').textContent = JSON.stringify(data, null, 2);
+                    document.getElementById('logo').textContent = JSON.stringify(data, null, 2);
                 })
                 .catch(error => {
                     console.error('Error fetching data.json:', error);
