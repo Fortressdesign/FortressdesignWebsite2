@@ -1,3 +1,28 @@
+ // Function to fetch data.json and display the responsive icon
+        function fetchAndDisplayResponsiveIcon() {
+            fetch('https://raw.githubusercontent.com/Fortressdesign/FortressdesignWebsite2/main/data.json')
+                .then(response => response.json())
+                .then(data => {
+                    // Get the URL of the responsive icon from the JSON data
+                    const responsiveIconUrl = data.icon_url; // Replace with the actual property name
+
+                    // Create an image element for the icon
+                    const iconImage = document.createElement('img');
+                    iconImage.src = responsiveIconUrl;
+                    iconImage.alt = 'Responsive Icon';
+
+                    // Append the icon to the #responsive element
+                    const responsiveElement = document.getElementById('responsive');
+                    responsiveElement.appendChild(iconImage);
+                })
+                .catch(error => {
+                    console.error('Error fetching data.json:', error);
+                });
+        }
+
+        // Call the function to fetch and display the responsive icon
+        fetchAndDisplayResponsiveIcon();
+
 ////////
 //title/
 //////// 
