@@ -34,7 +34,7 @@
 ////////
 //logo//
 ////////
-function
+
 const jsonData = {
   title: "Fortressdesign",
   beschreibung:
