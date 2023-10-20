@@ -5,6 +5,8 @@
 }
 body {
   background-size: cover;
+  background-attachment: fixed;
+}
   nav {
     background-color: #333;
     color: white;
@@ -16,9 +18,10 @@ body {
 
   .logo {
     font-size: 24px;
+    font-weight:900;
   }
 
-  .menu {
+  .menuList {
     display: flex;
     flex-direction: column; /* Add this line */
     display: none; /* Add this line */
