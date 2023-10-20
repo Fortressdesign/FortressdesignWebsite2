@@ -106,6 +106,8 @@ background-repeat: no-repeat;
     .menu-toggle {
       display: flex;
     }
+    #menu {
+      visiblity:hidden;
   }
 
   /* Add this style to display the menu when the 'active' class is present */
