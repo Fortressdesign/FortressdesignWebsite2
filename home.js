@@ -3,7 +3,7 @@
       document
         .getElementById("responsive")
         .addEventListener("click", function () {
-          document.getElementById("menu").classList.toggle("show-menu");
+          document.getElementById("menuList").classList.toggle("show-menu");
         });
     
 
