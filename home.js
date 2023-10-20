@@ -1,21 +1,16 @@
 ////////
 //title/
-////////
-// Define the URL of the JSON file
-const jsonUrl =
-  "https://raw.githubusercontent.com/Fortressdesign/Landgasthof-hedderich/main/data.json";
-
-// Fetch the JSON data
-fetch(jsonUrl)
-  .then((response) => response.json())
-  .then((data) => {
-    // Access the "title" property
-    const title = data.title;
-    console.log("Title:", title);
-  })
-  .catch((error) => {
-    console.error("Error fetching JSON:", error);
-  });
+////////   // Fetch the JSON file
+        fetch('https://raw.githubusercontent.com/Fortressdesign/FortressdesignWebsite2/main/data.json')
+            .then(response => response.json())
+            .then(data => {
+                // Set the document.title to the value of the 'title' property in the JSON
+                document.title = data.title;
+            })
+            .catch(error => {
+                // Handle any errors that occur during the fetch
+                console.error('Error fetching JSON:', error);
+            });
 
 ////////
 //logo//
