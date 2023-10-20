@@ -13,14 +13,10 @@ body {
     padding: 10px 20px;
   }
 
-  #logo {
+  .logo {
     font-size: 24px;
-    font-weigth:900;
-    margin: 0 20px;
   }
-  #menuList{
-    display: flex;
-  }
+
   .menu {
     display: flex;
     flex-direction: column; /* Add this line */
@@ -54,7 +50,7 @@ body {
 
   /* Responsive CSS for smaller screens */
   @media (max-width: 768px) {
-    .menuList {
+    .menu-toggle {
       display: flex;
     }
   }
