@@ -1,201 +1,25 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap');
-* {
+  * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-.top{
-  width: 100vw;
-
-  
-}
- #topButton {
-            display: none; /* Initially hide the button */
-            position: fixed;
-            bottom: 20px;
-            right: 30px;
-            z-index: 99;
-            font-size: 18px;
-            background-color: #007bff;
-            color: #fff;
-            border: none;
-            cursor: pointer;
-            padding: 10px;
-            border-radius: 50%;
-        }
-.show-menu{
-  
-  visibility: hidden;
-}
-#page{
-  display:block;  
-  background: rgba(164, 186, 218, 0.11);
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(2.6px);
-  -webkit-backdrop-filter: blur(2.6px);
-  border: 1px solid rgba(164, 186, 218, 0.43);
-  width:80%;
-  margin: 550px auto 0 auto;
-}
-body {
-    margin: 0;
-    background-color: #333;
-  background-image: url(https://fortressdesign.de/img/castle.jpg);
-  background-size: cover 100%;
-background-repeat: no-repeat;
-  background-attachment: center;
-  background-size: 100% 100%;
-    color: white;
-    
-    justify-content: space-between;
-    align-items: center;
-    font-family: 'Lato', sans-serif;
-  }
-.content{
-  width:100%;
-}
-  #logo {
-    font-size: 1.8rem;
-    line-height:50px;
-    font-weight: 900;
-    padding: 0 20px;
-    font-family: 'Lato', sans-serif;
-  }
-
-  #menuList {
-    display: flex;
-    width:40vw;
-    text-align: right;
-    flex-direction: column; /* Add this line */
-   
-  }
-#menuList li{
-  line-height:50px;
-}
-#phone{
-  line-height:50px;
-}
-
-  ul {
-   
-    padding: 0;
-    margin: 0;
-    display: flex;
-    flex-direction: column; /* Add this line */
-  }
-
-  li {
-    margin: 0 0 10px; /* Change margin */
-  }
-
-  a {
-    text-decoration: none;
-    color: #333;
-  }
-#menu li{
-  display:inline;
-}
-
-  .menu-toggle {
-    font-size: 24px;
-    cursor: pointer;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-  }
-
-  /* Responsive CSS for smaller screens */
-  @media (max-width: 768px) {
-    .menu-toggle {
-      display: flex;
-    }
-    #menu {
-      visiblity:hidden;
-  }
-    #menu li{
-      display:block;
-    }
-
-  /* Add this style to display the menu when the 'active' class is present */
-  .menu.active {
-    display: flex;
-  }
-
-:root {
-  --primary-color: #000;
-  --secondary-color: #fff;
-  --tertiary-color: #333;
-}
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap");
 .top {
-  display: flex;
   background: rgba(164, 186, 218, 0.11);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(2.6px);
   -webkit-backdrop-filter: blur(2.6px);
   border: 1px solid rgba(164, 186, 218, 0.43);
-  width:100%;
+  display:flex;
 }
-nav {
-  background-color: #333;
-  color: white;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 20px;
-}
-.menu {
-  display: flex;
-}
-
-ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
-}
-
-li {
-  margin: 0 20px;
-}
-
-a {
-  text-decoration: none;
-  color: white;
-}
-
-.hidden-checkbox {
-  display: none;
-}
-
-.menuList {
-  font-size: 24px;
-  cursor: pointer;
-  display: none;
-}
-
-/* Responsive CSS for smaller screens */
-@media (max-width: 768px) {
-  .menu {
-    display: none;
-    flex-direction: column;
-  }
-
-  ul {
-    flex-direction: column;
-  }
-
-  li {
-    margin: 10px 0;
-  }
-
-  .menu-toggle {
-    display: block;
-    position: absolute;
-    top: 10px;
-    right: 20px;
-  }
-
-  #menu-toggle:checked + .menu + .menu-toggle {
-    display: block;
-  }
+#page {
+  display: block;
+  padding:20px;
+  background: rgba(164, 186, 218, 0.11);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(2.6px);
+  -webkit-backdrop-filter: blur(2.6px);
+  border: 1px solid rgba(164, 186, 218, 0.43);
+  width: 80%;
+  margin: 550px auto 0 auto;
 }
