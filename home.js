@@ -1,4 +1,13 @@
- // Function to fetch data.json and display the responsive icon
+    
+      // Function to toggle the menu when clicking #responsive
+      document
+        .getElementById("responsive")
+        .addEventListener("click", function () {
+          document.getElementById("menu").classList.toggle("show-menu");
+        });
+    
+
+// Function to fetch data.json and display the responsive icon
         function fetchAndDisplayResponsiveIcon() {
             fetch('https://raw.githubusercontent.com/Fortressdesign/FortressdesignWebsite2/main/data.json')
                 .then(response => response.json())
