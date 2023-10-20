@@ -36,7 +36,7 @@
 //title/
 //////// 
 
-        const imageUrl = 'https://fortressdesign.de/img/castel.jpg';
+        const imageUrl = 'https://fortressdesign.de/img/castle.jpg';
 
         // Function to set a fixed background image
         function setFixedBackgroundImage() {
