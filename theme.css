@@ -27,6 +27,9 @@
   padding: 0 20px;
   font-size: "Lato", sans-serif;
 }
+#menu {
+  display:flex;
+}
 #menu li {
   display: flex;
 }
