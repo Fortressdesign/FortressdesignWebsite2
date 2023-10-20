@@ -25,6 +25,27 @@
                 // Handle any errors that occur during the fetch
                 console.error('Error fetching JSON:', error);
             });
+/////////
+//page//
+/////////
+// Function to fetch and display the "startseite" content from data.json
+        function fetchAndDisplayStartseite() {
+            fetch('https://raw.githubusercontent.com/Fortressdesign/FortressdesignWebsite2/main/data.json')
+                .then(response => response.json())
+                .then(data => {
+                    // Get the "startseite" content from the JSON data
+                    const startseite = data.seiten.find(page => page.titel === "Willkommen auf unserer Website");
+                    if (startseite) {
+                        document.getElementById('page').innerHTML = startseite.inhalt;
+                    }
+                })
+                .catch(error => {
+                    console.error('Error fetching data.json:', error);
+                });
+        }
+
+        // Call the function to fetch and display the "startseite" content
+        fetchAndDisplayStartseite();
  // Function to fetch and display the "title" from data.json
         function fetchAndDisplayTitle() {
             fetch('https://raw.githubusercontent.com/Fortressdesign/FortressdesignWebsite2/main/data.json')
