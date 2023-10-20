@@ -11,6 +11,8 @@ body {
     margin: 0;
     background-color: #333;
   background-image: url(https://fortressdesign.de/img/castel.jpg);
+  background-size: cover 100%;
+  
     color: white;
     display: flex;
     justify-content: space-between;
