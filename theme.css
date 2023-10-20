@@ -16,6 +16,7 @@ body {
   #logo {
     font-size: 24px;
     font-weigth:900;
+    margin: 0 20px;
   }
   #menuList{
     display: flex;
