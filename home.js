@@ -34,6 +34,24 @@
 ////////
 //logo//
 ////////
+const jsonData = {
+  title: "Fortressdesign",
+  beschreibung:
+    "Willkommen auf unserer Webseite. Wir bieten verschiedene Dienstleistungen an.",
+  // ... (other properties)
+};
+
+// Function to get and display the "title" in #logo
+function displayTitleInLogo() {
+  // Get the "title" property from the JSON data
+  const title = jsonData.title;
+  // Display the title in the #logo element
+  document.getElementById("logo").textContent = title;
+}
+
+// Call the function to display the title
+displayTitleInLogo();
+
 function get_logo() {
         // Call the function to fetch and display the JSON data
         fetchDataJson('https://raw.githubusercontent.com/Fortressdesign/FortressdesignWebsite2/main/data.json');// Function to fetch and display the JSON data
