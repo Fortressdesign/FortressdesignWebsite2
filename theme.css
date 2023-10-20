@@ -13,15 +13,12 @@ body {
     padding: 10px 20px;
   }
 
-  .logo {
+ #logo {
     font-size: 24px;
+    font-weight:900;
   }
 
-  .menu {
-    display: flex;
-    flex-direction: column; /* Add this line */
-    display: none; /* Add this line */
-  }
+
 
   ul {
     list-style: none;
