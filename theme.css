@@ -4,10 +4,6 @@
   padding: 0;
 }
 body {
-  background-size: cover;
-  background-attachment: fixed;
-  font-family: 'Lato', sans-serif;
-}
   nav {
     background-color: #333;
     color: white;
@@ -19,10 +15,9 @@ body {
 
   .logo {
     font-size: 24px;
-    font-weight:900;
   }
 
-  .menuList {
+  .menu {
     display: flex;
     flex-direction: column; /* Add this line */
     display: none; /* Add this line */
@@ -41,9 +36,23 @@ body {
   }
 
   a {
-    color:#000;
     text-decoration: none;
     color: white;
+  }
+
+  .menu-toggle {
+    font-size: 24px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+
+  /* Responsive CSS for smaller screens */
+  @media (max-width: 768px) {
+    .menu-toggle {
+      display: flex;
+    }
   }
 
   /* Add this style to display the menu when the 'active' class is present */
@@ -65,4 +74,68 @@ body {
   backdrop-filter: blur(2.6px);
   -webkit-backdrop-filter: blur(2.6px);
   border: 1px solid rgba(164, 186, 218, 0.43);
+}
+nav {
+  background-color: #333;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+.menu {
+  display: flex;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+li {
+  margin: 0 20px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.hidden-checkbox {
+  display: none;
+}
+
+.menuList {
+  font-size: 24px;
+  cursor: pointer;
+  display: none;
+}
+
+/* Responsive CSS for smaller screens */
+@media (max-width: 768px) {
+  .menu {
+    display: none;
+    flex-direction: column;
+  }
+
+  ul {
+    flex-direction: column;
+  }
+
+  li {
+    margin: 10px 0;
+  }
+
+  .menu-toggle {
+    display: block;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+  }
+
+  #menu-toggle:checked + .menu + .menu-toggle {
+    display: block;
+  }
 }
