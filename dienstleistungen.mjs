@@ -12,19 +12,6 @@
 ////////
 //title/
 //////// 
-
-        const imageUrl = 'https://fortressdesign.de/img/castle.jpg';
-
-        // Function to set a fixed background image
-        function setFixedBackgroundImage() {
-            document.body.style.backgroundImage = `url('${imageUrl}')`;
-            document.body.style.backgroundSize = 'cover 100%';
-            document.body.style.backgroundAttachment = 'fixed';
-            document.body.style.backgroundRepeat = 'no-repeat';
-        }
-
-        // Call the function to set the fixed background image
-        setFixedBackgroundImage();
 // Fetch the JSON file
         fetch('https://raw.githubusercontent.com/Fortressdesign/FortressdesignWebsite2/main/data.json')
             .then(response => response.json())
