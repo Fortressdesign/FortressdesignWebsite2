@@ -1,0 +1,81 @@
+{
+  "title": "Fortressdesign",
+  "beschreibung": "Willkommen auf unserer Webseite. Wir bieten verschiedene Dienstleistungen an.",
+  "kontakt": {
+    "email": "admin@fortressdesign.de",
+    "telefon": "0177 225 2248"
+  },
+  "style": "theme.css",
+  "script": [
+    {
+      "src": "https://code.jquery.com/jquery-3.7.1.js"
+    },
+    {
+      "src": "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
+    }
+  ],
+  "dienstleistungen": ["Webdesign", "Grafikdesign", "SEO"],
+  "menu": [
+    {
+      "name": "Startseite",
+      "url": "/"
+    },
+    {
+      "name": "Über uns",
+      "url": "/über-uns"
+    },
+    {
+      "name": "Dienstleistungen",
+      "url": "/dienstleistungen"
+    },
+    {
+      "name": "Referenzen",
+      "url": "/Referenzen"
+    },
+    {
+      "name": "Kontakt",
+      "url": "/kontakt"
+    }
+  ],
+  "soziale_medien": [
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/deine-seite"
+    },
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/deinprofil"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/deinprofil"
+    },
+    {
+      "name": "Instagram",
+      "url": "https://www.instagram.com/deinprofil"
+    }
+  ],
+  "seiten": [
+    {
+      "titel": "Willkommen auf unserer Website",
+      "untertitel": "Entdecken Sie unsere Dienstleistungen und Expertise",
+      "inhalt": "Willkommen bei Fortressdesign - Ihrer Kreativagentur für digitale Lösungen<br />Herzlich willkommen auf der offiziellen Website von Fortressdesign, Ihrem Partner für innovative und maßgeschneiderte digitale Lösungen. Wir sind stolz darauf, unsere Kunden bei der Umsetzung ihrer kreativen Visionen und Geschäftsziele zu unterstützen. Unser erfahrenes Team aus Designern, Entwicklern und Marketingexperten arbeitet eng mit Ihnen zusammen, um die besten Ergebnisse zu erzielen.<br />[b]Unsere Dienstleistungen:[/b]<br>Webdesign: Unser Team von talentierten Webdesignern erstellt ansprechende und benutzerfreundliche Websites, die Ihre Marke perfekt repräsentieren.<br>Grafikdesign: Wir entwerfen hochwertige Grafiken, die Eindruck hinterlassen.<br>SEO (Suchmaschinenoptimierung): Mit unserer SEO-Expertise bringen wir Ihre Website in den Suchergebnissen nach oben, um Ihre Sichtbarkeit im Web zu steigern.<h2>Über uns:</h2><br>Erfahren Sie mehr über unser Unternehmen, unsere Werte und unsere Mission. Fortressdesign steht für Kreativität, Qualität und Kundenzufriedenheit.<br /><h2>Unsere Referenzen:</h2><br>Schauen Sie sich einige unserer abgeschlossenen Projekte an und überzeugen Sie sich von unserer Arbeit. Unsere Referenzen sprechen für sich.<h2>Kontakt:</h2><br />Haben Sie Fragen oder Interesse an unseren Dienstleistungen? Nehmen Sie Kontakt mit uns auf. Wir freuen uns darauf, Sie zu unterstützen.<br>Lassen Sie uns gemeinsam Ihre Ideen verwirklichen. Treten Sie mit uns in Kontakt und entdecken Sie die Möglichkeiten.<br />"
+    },
+    {
+      "titel": "Über uns",
+      "inhalt": "Erfahren Sie mehr über uns und unsere Mission."
+    },
+    {
+      "titel": "Dienstleistungen",
+      "inhalt": "Erkunden Sie die von uns angebotenen Dienstleistungen, um Ihr Unternehmen wachsen zu lassen."
+    },
+    {
+      "titel": "Referenzen",
+      "inhalt": "Erkunden Sie die von uns angebotenen Dienstleistungen, um Ihr Unternehmen wach"
+    },
+    {
+      "titel": "Kontakt",
+      "inhalt": "Nehmen Sie Kontakt mit uns auf für Anfragen und Zusammenarbeit."
+    }
+  ]
+}
