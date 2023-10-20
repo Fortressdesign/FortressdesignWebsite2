@@ -80,7 +80,7 @@ function get_menu() {
     })
     .then((data) => {
       const menuData = data.menu;
-      const menuList = document.getElementById("menu-list");
+      const menuList = document.getElementById("menuList");
 
       if (menuData) {
         menuData.forEach((item) => {
@@ -131,7 +131,7 @@ function get_style() {
     });
 }
 function get_phone() {
-  fetch("https://fortressdesign.de/data/data.json") // Ersetzen Sie 'data.json' durch die tatsächliche URL oder den Pfad Ihrer JSON-Datei
+  fetch("https://raw.githubusercontent.com/Fortressdesign/FortressdesignWebsite2/main/data.json") // Ersetzen Sie 'data.json' durch die tatsächliche URL oder den Pfad Ihrer JSON-Datei
     .then((response) => {
       if (!response.ok) {
         throw new Error("Netzwerkantwort war nicht erfolgreich");
