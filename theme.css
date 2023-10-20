@@ -16,6 +16,8 @@ body {
   .logo {
     font-size: 24px;
   }
+  #menuList{
+    display: flex;
 
   .menu {
     display: flex;
