@@ -17,7 +17,7 @@
   -webkit-backdrop-filter: blur(2.6px);
   border: 1px solid rgba(164, 186, 218, 0.43);
   width:calc(100vw -25vw);
-  margin: 550px auto 0;
+  margin: 550px auto 0 auto;
 }
 body {
     margin: 0;
