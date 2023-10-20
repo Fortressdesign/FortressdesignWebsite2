@@ -24,8 +24,15 @@
 }
 #logo {
   font-size: 30px;
+  padding: 0 20px;
   font-size: "Lato", sans-serif;
 }
-#menu li{
+#menu li {
   display: flex;
+}
+#menu li a {
+  color: #fff;
+  font: inherit;
+  font-size: 20px;
+  text-decoration: none;
 }
