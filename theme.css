@@ -27,3 +27,8 @@
 body{
  margin:0;
  background-size: cover;
+}
+#logo {
+  font-size: 30px;
+  font-size: "Lato", sans-serif;
+}
