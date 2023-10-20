@@ -35,34 +35,27 @@
 //logo//
 ////////
 function get_logo() {
-  fetch(
-    "https://raw.githubusercontent.com/Fortressdesign/FortressdesignWebsite2/main/data.json"
-  ) // Replace 'data.json' with the actual URL or path to your JSON file
-    .then((response) => {
-      if (!response.ok) {
-        throw new Error("Network response was not ok");
-      }
-      return response.json();
-    })
-    .then((data) => {
-      const style = data.style;
+        // Call the function to fetch and display the JSON data
+        fetchDataJson('https://raw.githubusercontent.com/Fortressdesign/FortressdesignWebsite2/main/data.json');// Function to fetch and display the JSON data
+        function fetchDataJson() {
+            fetch('')
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Network response was not ok');
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    // Display the JSON data in the #jsonData element
+                    document.getElementById('jsonData').textContent = JSON.stringify(data, null, 2);
+                })
+                .catch(error => {
+                    console.error('Error fetching data.json:', error);
+                });
+        }
 
-      if (style) {
-        // Create a <style> tag
-        const styleTag = document.createElement("style");
-
-        // Set the content of the <style> tag to the "style" value from the JSON data
-        styleTag.textContent = style;
-
-        // Append the <style> tag to the document's <head>
-        document.head.appendChild(styleTag);
-      } else {
-        console.log("Style not found in the JSON data.");
-      }
-    })
-    .catch((error) => {
-      console.error("Error fetching or parsing JSON:", error);
-    });
+        // Call the function to fetch and display the JSON data
+        fetchDataJson();
 }
 get_logo();
 ////////
