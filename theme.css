@@ -78,6 +78,7 @@ body {
   backdrop-filter: blur(2.6px);
   -webkit-backdrop-filter: blur(2.6px);
   border: 1px solid rgba(164, 186, 218, 0.43);
+  width:100%;
 }
 nav {
   background-color: #333;
