@@ -54,7 +54,7 @@ body {
 
   /* Responsive CSS for smaller screens */
   @media (max-width: 768px) {
-    .menu-toggle {
+    .menuList {
       display: flex;
     }
   }
