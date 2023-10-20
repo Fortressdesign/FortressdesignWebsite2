@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  nav {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+
+  .logo {
+    font-size: 24px;
+  }
+
+  .menu {
+    display: flex;
+    flex-direction: column; /* Add this line */
+    display: none; /* Add this line */
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column; /* Add this line */
+  }
+
+  li {
+    margin: 0 0 10px; /* Change margin */
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .menu-toggle {
+    font-size: 24px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+
+  /* Responsive CSS for smaller screens */
+  @media (max-width: 768px) {
+    .menu-toggle {
+      display: flex;
+    }
+  }
+
+  /* Add this style to display the menu when the 'active' class is present */
+  .menu.active {
+    display: flex;
+  }
+  font-size: 20px;
+  font-family: "Lato", sans-serif;
+}
+:root {
+  --primary-color: #000;
+  --secondary-color: #fff;
+  --tertiary-color: #333;
+}
+.top {
+  display: flex;
+  background: rgba(164, 186, 218, 0.11);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(2.6px);
+  -webkit-backdrop-filter: blur(2.6px);
+  border: 1px solid rgba(164, 186, 218, 0.43);
+}
+nav {
+  background-color: #333;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+.menu {
+  display: flex;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+li {
+  margin: 0 20px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.hidden-checkbox {
+  display: none;
+}
+
+.menu-toggle {
+  font-size: 24px;
+  cursor: pointer;
+  display: none;
+}
+
+/* Responsive CSS for smaller screens */
+@media (max-width: 768px) {
+  .menu {
+    display: none;
+    flex-direction: column;
+  }
+
+  ul {
+    flex-direction: column;
+  }
+
+  li {
+    margin: 10px 0;
+  }
+
+  .menu-toggle {
+    display: block;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+  }
+
+  #menu-toggle:checked + .menu + .menu-toggle {
+    display: block;
+  }
+}
