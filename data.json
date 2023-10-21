@@ -68,7 +68,7 @@
     },
     {
       "titel": "Dienstleistungen",
-      "inhalt": "<h1>Leistungen</h1>Erkunden Sie die von uns angebotenen Dienstleistungen, um Ihr Unternehmen wachsen zu lassen."
+      "inhalt": "<h1>Leistungen</h1><p>Erkunden Sie die von uns angebotenen Dienstleistungen, um Ihr Unternehmen wachsen zu lassen.</p><section><img src='/img/webdesign.png' width='220' height='220' loading='lazy'>"
     },
     {
       "titel": "Referenzen",
