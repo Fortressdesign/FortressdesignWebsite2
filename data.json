@@ -68,15 +68,15 @@
     },
     {
       "titel": "Dienstleistungen",
-      "inhalt": "Erkunden Sie die von uns angebotenen Dienstleistungen, um Ihr Unternehmen wachsen zu lassen."
+      "inhalt": "<h1>Leistungen</h1>Erkunden Sie die von uns angebotenen Dienstleistungen, um Ihr Unternehmen wachsen zu lassen."
     },
     {
       "titel": "Referenzen",
-      "inhalt": "Erkunden Sie die von uns angebotenen Dienstleistungen, um Ihr Unternehmen wach"
+      "inhalt": "<h1>Referenzen</h1>Leider sind der Zeit keine Referenzen verfügbar"
     },
     {
       "titel": "Kontakt",
-      "inhalt": "Nehmen Sie Kontakt mit uns auf für Anfragen und Zusammenarbeit."
+      "inhalt": "<h1>Kontakt</h1>Nehmen Sie Kontakt mit uns auf für Anfragen und Zusammenarbeit."
     }
   ]
 }
