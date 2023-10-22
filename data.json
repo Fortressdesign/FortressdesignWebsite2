@@ -76,7 +76,7 @@
     },
     {
       "titel": "Kontakt",
-      "inhalt": "<h1>Kontakt</h1>Nehmen Sie Kontakt mit uns auf für Anfragen und Zusammenarbeit."
+      "inhalt": "<h1>Kontakt</h1>Rufen sie uns doch an oder schreiben uns eine E-Mail:<div class='kontakt'><section><a href='mailto: admin@fortressdesign.de'>admin@fortressdesign.de</a></section><section><a href='tel: 01772252248'>+49 177 225 2248</a></section>"
     }
   ]
 }
